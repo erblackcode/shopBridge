@@ -1,0 +1,11 @@
+.example-card {
+    max-width: 400px;
+  }
+
+.content-profile{
+    margin: 20px;
+    position: absolute;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 10px;
+}

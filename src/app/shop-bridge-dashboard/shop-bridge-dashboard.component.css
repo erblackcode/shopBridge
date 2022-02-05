@@ -1,0 +1,23 @@
+  .add-product{
+    margin: 10px;
+    position: absolute;
+    right: 20px;
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 60%;
+  }
+  
+  td, th {
+    width: 5%;
+  }
+
+  .table-container{
+      max-width: 1200px;
+      margin: 0 auto;
+  }

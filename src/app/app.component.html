@@ -1,0 +1,37 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+      <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+      <mat-icon *ngIf="sidenav.opened">close</mat-icon>
+    </button>
+    <h1>{{title}}</h1>
+    <span class="example-spacer"></span>
+    <button mat-button routerLink=""> 
+      <mat-icon>dashboard</mat-icon>
+      Dashboard
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav">
+    <img class="avtar mat-elevation-z8" src="assets/avatar.png">
+    <h4 class="name">ShopBridge</h4>
+    <p class="designation">Admin Engineer</p>
+
+    <mat-divider></mat-divider>
+
+    <button mat-button class="menu-button" routerLink="profile/1">
+      <mat-icon>person</mat-icon>
+      <span>Profile</span>
+    </button>
+
+    <mat-divider></mat-divider>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content mat-elevation-z4">
+        <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,76 @@
+{
+  "ProductList": [
+    {
+      "productName": "Boat",
+      "category": "Earphones",
+      "date": "2022-02-02T18:30:00.000Z",
+      "price": 700,
+      "description": "This is earphone",
+      "id": 3
+    },
+    {
+      "productName": "ARISTOCRAT",
+      "category": "Bags",
+      "date": "2001-01-31T18:30:00.000Z",
+      "price": 600,
+      "description": "Buy 2 items, save extra 5%",
+      "id": 4
+    },
+    {
+      "productName": "IDISI CLOTHES",
+      "category": "Cloths",
+      "date": "2001-05-31T18:30:00.000Z",
+      "price": 800,
+      "description": "Polycotton Color Block Shirt Fabric",
+      "id": 5
+    },
+    {
+      "productName": "realme Narzo 50A (Oxygen Blue, 64 GB)  (4 GB RAM)",
+      "category": "Phones",
+      "date": "2022-02-15T18:30:00.000Z",
+      "price": 11000,
+      "description": "Bank Offer5% Unlimited Cashback",
+      "id": 6
+    },
+    {
+      "productName": "Raymond",
+      "category": "Cloths",
+      "date": "2001-03-31T18:30:00.000Z",
+      "price": 2800,
+      "description": "\nCotton Solid Trouser Fabric",
+      "id": 7
+    },
+    {
+      "productName": "realme ",
+      "category": "Earphones",
+      "date": "2022-01-11T18:30:00.000Z",
+      "price": 700,
+      "description": "Buds 2 Wired Headset  (Black, In the Ear)",
+      "id": 8
+    },
+    {
+      "productName": "NB TWS ",
+      "category": "Earphones",
+      "date": "2001-07-31T18:30:00.000Z",
+      "price": 600,
+      "description": "Twins Wireless Bluetooth Earphone with Mic HEADPHONE Bluetooth Headset  (White, In the Ear)\n",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "firstname": "Gopal",
+    "lastname": "Gupta",
+    "Role": "Admin",
+    "Contact": "9999999999",
+    "Email": "admin@shopbridge.com",
+    "jod": "2022-02-02T18:30:00.000Z",
+    "id": 1
+  }
+}
